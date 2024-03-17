@@ -47,7 +47,7 @@ void exercise_2(double A, double B, double C) {
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HER
- if (b=0){
+ if (b==0){
   cout << "Impossible" << endl;
  }
  else{
