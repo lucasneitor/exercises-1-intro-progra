@@ -12,7 +12,7 @@ cout << s1
   cout <<s2;
 } else {
   cout << s3;
-}
+} 
 }
 
 void exercise_2(double A, double B, double C) {
