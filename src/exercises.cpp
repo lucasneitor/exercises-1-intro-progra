@@ -91,25 +91,25 @@ void exercise_5(char character) {
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE
  if(number == 1){
-  cout << "Lunes" << endl;
+  cout << "monday" << endl;
  }
  else if(number == 2){
-    cout << "Martes" << endl;
+    cout << "tuesday" << endl;
  }
  else if(number == 3) {
-    cout << "Miercoles" << endl;
+    cout << "wednesday" << endl;
  }
  else if(number == 4) {
-    cout << "Jueves"<< endl;
+    cout << "thursday"<< endl;
  }
  else if(number == 5){
-    cout << "Viernes" << endl;
+    cout << "friday" << endl;
  }
  else if(number == 6){
-    cout << "Sábado" << endl;
+    cout << "saturday" << endl;
  }
  else if(number == 7){
-    cout << "Domingo" << endl;
+    cout << "sunday" << endl;
  }
  else{
      cout << "Invalid input" << endl;
