@@ -216,7 +216,7 @@ string exercise_13(int age, int years_of_experience) {
 if(age >= 18 && years_of_experience >= 0 && years_of_experience < 3){
   return "Project coordinator";
 }
-else if(age >= 18 && years_of_experience >= 3){
+else if(age >= 18 && years_of_experience >= 3 && years_of_experience < 5){
   return "Project manager";
 }
 else if(age >= 18 && years_of_experience >= 5){
