@@ -230,6 +230,15 @@ return "";
 
 string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
+  if(number_of_docs <= 0){
+    return "No se encontraron documentos";
+  }
+  else if (number_of_docs == 1) {
+    return "Se encontro un documento";
+  }
+  else if (number_of_docs > 1){
+    return to_string (number_of_docs) + " documentos encontrados";
+  }
   return "";
 }
 
